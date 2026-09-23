@@ -320,7 +320,7 @@ export default function Home() {
             >
               {/* Slide 1 */}
               <SwiperSlide>
-                <div className="relative h-[307px] md:h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-white hover:scale-105 transition-transform duration-300 bg-gray-100">
+                <div className="relative h-[420px] md:h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-white hover:scale-105 transition-transform duration-300 bg-gray-100">
                   <Image
                     src="/images/polozi-test-s1.jpg"
                     alt="Portal za polaganje"
@@ -334,7 +334,7 @@ export default function Home() {
 
               {/* Slide 2 */}
               <SwiperSlide>
-                <div className="relative h-[307px] md:h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-white hover:scale-105 transition-transform duration-300 bg-gray-100">
+                <div className="relative h-[420px] md:h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-white hover:scale-105 transition-transform duration-300 bg-gray-100">
                   <Image
                     src="/images/polozi-test-s2.jpg"
                     alt="Statistika portala"
@@ -347,7 +347,7 @@ export default function Home() {
 
               {/* Slide 3 */}
               <SwiperSlide>
-                <div className="relative h-[307px] md:h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-white hover:scale-105 transition-transform duration-300 bg-gray-100">
+                <div className="relative h-[420px] md:h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-white hover:scale-105 transition-transform duration-300 bg-gray-100">
                   <Image
                     src="/images/polozi-test-s3.jpg"
                     alt="Učenje na portalu"
@@ -360,7 +360,7 @@ export default function Home() {
 
               {/* Slide 4 */}
               <SwiperSlide>
-                <div className="relative h-[307px] md:h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-white hover:scale-105 transition-transform duration-300 bg-gray-100">
+                <div className="relative h-[420px] md:h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-white hover:scale-105 transition-transform duration-300 bg-gray-100">
                   <Image
                     src="/images/polozi-test-s4.jpg"
                     alt="Testovi i simulacije"
@@ -373,7 +373,7 @@ export default function Home() {
 
               {/* Slide 5 */}
               <SwiperSlide>
-                <div className="relative h-[307px] md:h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-white hover:scale-105 transition-transform duration-300 bg-gray-100">
+                <div className="relative h-[420px] md:h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-white hover:scale-105 transition-transform duration-300 bg-gray-100">
                   <Image
                     src="/images/polozi-test-s5.jpg"
                     alt="Praćenje napretka"
@@ -386,7 +386,7 @@ export default function Home() {
 
               {/* Slide 6 */}
               <SwiperSlide>
-                <div className="relative h-[307px] md:h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-white hover:scale-105 transition-transform duration-300 bg-gray-100">
+                <div className="relative h-[420px] md:h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-white hover:scale-105 transition-transform duration-300 bg-gray-100">
                   <Image
                     src="/images/polozi-test-s6.jpg"
                     alt="Rezultati i analitika"
