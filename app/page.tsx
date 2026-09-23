@@ -17,8 +17,80 @@ export default function Home() {
   const [ref4, inView4] = useInView({ triggerOnce: true, threshold: 0.1 });
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
+  // Schema.org structured data
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Položi Test",
+    "url": "https://polozitest.com",
+    "logo": "https://polozitest.com/images/Logo5.png",
+    "description": "AI-powered platforma za pripremu teoretskog vozačkog ispita",
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=61592764594364",
+      "https://www.instagram.com/polozitest/",
+      "https://www.tiktok.com/@polozitest"
+    ]
+  };
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Kome je namenjen ovaj portal?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Portal je namenjen svim kandidatima koji polaze teoretski ispit iz B kategorije bez obzira na nivo znanja koji poseduju."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Zašto baš vaš portal?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Naš portal koristi najsavremeniji AI model koji prati vaš ritam učenja i prilagođava testove shodno vašem trenutnom znanju. Svaki sledeći test koji uradite zavisi od svih prethodnih koji ste uradili."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Da li više korisnika mogu da koriste jedan nalog?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Moguće ali nije preporučljivo jer se algoritam prilagođava svakom kandidatu i pomaže mu da što pre spremi ispit. Ukoliko više kandidata koristi portal algoritam će svim kandidatima davati neadekvatna pitanja."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kako mogu da kupim pretplatu?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pretplatu možete najlakše kupiti ovde, putem sajta. Plaćanje se vrši online platnim karticama ili mobilnim bankarskim aplikacijama. Pretplatu je moguće kupiti i preko vaše auto škole ukoliko ima saradnju sa nama."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Koliko traje pretplata i šta posle toga?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pretplata traje 2 meseca, što je sasvim dovoljno da položite ispit. Posle isteka pretplate vaš nalog čuvamo još 60 dana kao neaktivan i u tom periodu možete izvršiti reaktivaciju."
+        }
+      }
+    ]
+  };
+
   return (
     <main className="min-h-screen bg-gradient-to-br from-blue-50 via-green-50 to-warm-50">
+      {/* Schema.org JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 backdrop-blur-lg z-50 border-b border-gray-700 shadow-xl">
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
