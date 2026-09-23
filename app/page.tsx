@@ -73,7 +73,7 @@ export default function Home() {
         "name": "Koliko traje pretplata i šta posle toga?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Pretplata traje 2 meseca, što je sasvim dovoljno da položite ispit. Posle isteka pretplate vaš nalog čuvamo još 60 dana kao neaktivan i u tom periodu možete izvršiti reaktivaciju."
+          "text": "Pretplata traje 3 meseca, što je sasvim dovoljno da položite ispit. Posle isteka pretplate vaš nalog čuvamo još 60 dana kao neaktivan i u tom periodu možete izvršiti reaktivaciju."
         }
       }
     ]
@@ -732,7 +732,7 @@ export default function Home() {
                 <div className="text-5xl font-bold text-blue-600 mb-2">
                   1200 <span className="text-2xl text-gray-600">RSD</span>
                 </div>
-                <p className="text-gray-500">2 meseca neograničenog pristupa</p>
+                <p className="text-gray-500">3 meseca neograničenog pristupa</p>
               </div>
 
               <div className="space-y-4 mb-8">
@@ -827,7 +827,7 @@ export default function Home() {
               },
               {
                 q: "Koliko traje pretplata i šta posle toga?",
-                a: "Pretplata traje 2 meseca, što je sasvim dovoljno da položite ispit. Posle isteka pretplate vaš nalog čuvamo još 60 dana kao neaktivan i u tom periodu možete izvršiti reaktivaciju. Veoma cenimo povratnu informaciju da ste položili ispit zbog naše statistike."
+                a: "Pretplata traje 3 meseca, što je sasvim dovoljno da položite ispit. Posle isteka pretplate vaš nalog čuvamo još 60 dana kao neaktivan i u tom periodu možete izvršiti reaktivaciju. Veoma cenimo povratnu informaciju da ste položili ispit zbog naše statistike."
               }
             ].map((faq, i) => (
               <motion.div
