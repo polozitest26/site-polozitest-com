@@ -285,7 +285,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.3 }}
-            className="relative px-1 md:px-4 py-10 road-background"
+            className="relative px-4 py-10 road-background"
           >
             <Swiper
               modules={[Autoplay, Pagination, Navigation]}
@@ -305,8 +305,7 @@ export default function Home() {
               breakpoints={{
                 320: {
                   slidesPerView: 1,
-                  spaceBetween: 40,
-                  centeredSlides: true
+                  spaceBetween: 20
                 },
                 768: {
                   slidesPerView: 2,
@@ -321,7 +320,7 @@ export default function Home() {
             >
               {/* Slide 1 */}
               <SwiperSlide>
-                <div className="relative aspect-[478/428] min-h-[400px] md:min-h-0 rounded-3xl overflow-hidden shadow-2xl border-4 border-white hover:scale-105 transition-transform duration-300 bg-gray-100">
+                <div className="relative h-[380px] md:h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-white hover:scale-105 transition-transform duration-300 bg-gray-100">
                   <Image
                     src="/images/polozi-test-s1.jpg"
                     alt="Portal za polaganje"
@@ -335,7 +334,7 @@ export default function Home() {
 
               {/* Slide 2 */}
               <SwiperSlide>
-                <div className="relative aspect-[478/428] min-h-[400px] md:min-h-0 rounded-3xl overflow-hidden shadow-2xl border-4 border-white hover:scale-105 transition-transform duration-300 bg-gray-100">
+                <div className="relative h-[380px] md:h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-white hover:scale-105 transition-transform duration-300 bg-gray-100">
                   <Image
                     src="/images/polozi-test-s2.jpg"
                     alt="Statistika portala"
@@ -348,7 +347,7 @@ export default function Home() {
 
               {/* Slide 3 */}
               <SwiperSlide>
-                <div className="relative aspect-[478/428] min-h-[400px] md:min-h-0 rounded-3xl overflow-hidden shadow-2xl border-4 border-white hover:scale-105 transition-transform duration-300 bg-gray-100">
+                <div className="relative h-[380px] md:h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-white hover:scale-105 transition-transform duration-300 bg-gray-100">
                   <Image
                     src="/images/polozi-test-s3.jpg"
                     alt="Učenje na portalu"
@@ -361,7 +360,7 @@ export default function Home() {
 
               {/* Slide 4 */}
               <SwiperSlide>
-                <div className="relative aspect-[478/428] min-h-[400px] md:min-h-0 rounded-3xl overflow-hidden shadow-2xl border-4 border-white hover:scale-105 transition-transform duration-300 bg-gray-100">
+                <div className="relative h-[380px] md:h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-white hover:scale-105 transition-transform duration-300 bg-gray-100">
                   <Image
                     src="/images/polozi-test-s4.jpg"
                     alt="Testovi i simulacije"
@@ -374,7 +373,7 @@ export default function Home() {
 
               {/* Slide 5 */}
               <SwiperSlide>
-                <div className="relative aspect-[478/428] min-h-[400px] md:min-h-0 rounded-3xl overflow-hidden shadow-2xl border-4 border-white hover:scale-105 transition-transform duration-300 bg-gray-100">
+                <div className="relative h-[380px] md:h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-white hover:scale-105 transition-transform duration-300 bg-gray-100">
                   <Image
                     src="/images/polozi-test-s5.jpg"
                     alt="Praćenje napretka"
@@ -387,7 +386,7 @@ export default function Home() {
 
               {/* Slide 6 */}
               <SwiperSlide>
-                <div className="relative aspect-[478/428] min-h-[400px] md:min-h-0 rounded-3xl overflow-hidden shadow-2xl border-4 border-white hover:scale-105 transition-transform duration-300 bg-gray-100">
+                <div className="relative h-[380px] md:h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-white hover:scale-105 transition-transform duration-300 bg-gray-100">
                   <Image
                     src="/images/polozi-test-s6.jpg"
                     alt="Rezultati i analitika"
