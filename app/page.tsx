@@ -326,7 +326,8 @@ export default function Home() {
                     alt="Portal za polaganje"
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    className="object-cover object-left md:object-center"
+                    className="object-cover md:object-center"
+                    style={{ objectPosition: 'left 10px center' }}
                     priority
                   />
                 </div>
@@ -340,7 +341,8 @@ export default function Home() {
                     alt="Statistika portala"
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    className="object-cover object-left md:object-center"
+                    className="object-cover md:object-center"
+                    style={{ objectPosition: 'left 10px center' }}
                   />
                 </div>
               </SwiperSlide>
@@ -353,7 +355,8 @@ export default function Home() {
                     alt="Učenje na portalu"
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    className="object-cover object-left md:object-center"
+                    className="object-cover md:object-center"
+                    style={{ objectPosition: 'left 10px center' }}
                   />
                 </div>
               </SwiperSlide>
@@ -366,7 +369,8 @@ export default function Home() {
                     alt="Testovi i simulacije"
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    className="object-cover object-left md:object-center"
+                    className="object-cover md:object-center"
+                    style={{ objectPosition: 'left 10px center' }}
                   />
                 </div>
               </SwiperSlide>
@@ -379,7 +383,8 @@ export default function Home() {
                     alt="Praćenje napretka"
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    className="object-cover object-left md:object-center"
+                    className="object-cover md:object-center"
+                    style={{ objectPosition: 'left 10px center' }}
                   />
                 </div>
               </SwiperSlide>
@@ -392,7 +397,8 @@ export default function Home() {
                     alt="Rezultati i analitika"
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    className="object-cover object-left md:object-center"
+                    className="object-cover md:object-center"
+                    style={{ objectPosition: 'left 10px center' }}
                   />
                 </div>
               </SwiperSlide>
