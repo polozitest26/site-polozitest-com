@@ -285,7 +285,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.3 }}
-            className="relative px-4 py-10 road-background"
+            className="relative px-1 md:px-4 py-10 road-background"
           >
             <Swiper
               modules={[Autoplay, Pagination, Navigation]}
