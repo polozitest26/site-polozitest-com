@@ -75,7 +75,7 @@ export default function PrijavaPage() {
             Prijavi se i započni učenje
           </h1>
           <p className="text-gray-300 text-lg">
-            Samo 1200 RSD za 2 meseca pristupa portalu
+            Samo 1200 RSD za 3 meseca pristupa portalu
           </p>
         </div>
 
@@ -158,7 +158,7 @@ export default function PrijavaPage() {
             {/* Price Summary */}
             <div className="bg-success-50 border-2 border-success-200 rounded-xl p-6 mt-6">
               <div className="flex justify-between items-center mb-2">
-                <span className="text-gray-700 font-semibold">Pristup za 2 meseca:</span>
+                <span className="text-gray-700 font-semibold">Pristup za 3 meseca:</span>
                 <span className="text-2xl font-bold text-success-600">1200 RSD</span>
               </div>
               <p className="text-sm text-gray-600 mt-2">

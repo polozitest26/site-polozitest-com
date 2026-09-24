@@ -68,7 +68,7 @@ function SuccessContent() {
               </div>
               <div className="flex justify-between">
                 <span className="text-gray-600">Trajanje:</span>
-                <span className="font-semibold text-gray-900">2 meseca</span>
+                <span className="font-semibold text-gray-900">3 meseca</span>
               </div>
               <div className="flex justify-between">
                 <span className="text-gray-600">Status:</span>

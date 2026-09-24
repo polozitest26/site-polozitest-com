@@ -52,7 +52,7 @@ function ErrorContent() {
             Plaćanje neuspešno
           </h1>
           <p className="text-xl text-gray-700 mb-6">
-            Nažalost, došlo je do problema prilikom procesovanja vašeg plaćanja.
+            Nažalost, došlo je do problema prilikom plaćanja.
           </p>
 
           {/* Error Details */}
