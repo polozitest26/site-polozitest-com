@@ -388,7 +388,7 @@ export default function Home() {
               <SwiperSlide>
                 <div className="relative h-[420px] md:h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-white hover:scale-105 transition-transform duration-300 bg-gray-100">
                   <Image
-                    src="/images/polozi-test-s6.jpg"
+                    src="/images/polozi-test-s6-v2.jpg"
                     alt="Rezultati i analitika"
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -549,7 +549,7 @@ export default function Home() {
                 </div>
                 <div className="rounded-xl overflow-hidden shadow-lg">
                   <Image
-                    src="/images/polozi-test-s6.jpg"
+                    src="/images/polozi-test-s6-v2.jpg"
                     alt="Analitika"
                     width={400}
                     height={300}
